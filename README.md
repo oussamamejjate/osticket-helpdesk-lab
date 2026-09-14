@@ -4,8 +4,8 @@ Helpdesk ticketing system built from scratch on Windows Server 2019 using osTick
 # 🎫 osTicket Helpdesk Lab
 
 A fully functional IT helpdesk environment built from scratch on Windows Server 2019,
-simulating real-world Tier 1 support scenarios end to end — from ticket submission to
-resolution — integrated with an existing Active Directory domain.
+simulating real-world Tier 1 support scenarios end to end - from ticket submission to
+resolution - integrated with an existing Active Directory domain.
 
 > This project is a continuation of my
 > [Active Directory Home Lab](https://github.com/oussamamejjate/active-directory-home-lab)
