@@ -50,19 +50,19 @@ resolution — integrated with an existing Active Directory domain.
 
 Several issues were encountered and resolved during setup:
 
-**PHP FastCGI crash (HTTP 500.0)** — Caused by missing Visual C++
+**PHP FastCGI crash (HTTP 500.0)**: Caused by missing Visual C++
 Redistributable. Fixed by installing `vc_redist.x64.exe`.
 
-**IIS configuration error (HTTP 500.19 — 0x8007000d)** — Caused by
+**IIS configuration error (HTTP 500.19 — 0x8007000d)**: Caused by
 missing URL Rewrite module. Fixed by installing the IIS URL Rewrite
 extension from iis.net.
 
-**MySQL Access Denied for osticket user** — Caused by MySQL 8.0's
+**MySQL Access Denied for osticket user**: Caused by MySQL 8.0's
 new default authentication method conflicting with PHP's mysqli
 extension. Fixed by recreating the user with
 `mysql_native_password` authentication.
 
-**Installation timeout** — Fixed by increasing `max_execution_time`
+**Installation timeout**: Fixed by increasing `max_execution_time`
 and `max_input_time` to 120 seconds in php.ini.
 
 ![osTicket Installed](screenshots/installation/osticket-installed.png)
